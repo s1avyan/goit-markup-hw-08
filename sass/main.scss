@@ -1,0 +1,29 @@
+@import '../sass/utils/reset-styles';
+@import './utils/variables';
+@import './utils/placeholders';
+@import './utils/mixins';
+
+@import '../sass/components/container';
+@import '../sass/components/header';
+@import '../sass/components/mobile_menu';
+@import '../sass/components/logo';
+@import '../sass/components/menu';
+@import '../sass/components/contact';
+@import '../sass/components/hero-section';
+@import '../sass/components/section-title';
+@import '../sass/components/features-section';
+@import '../sass/components/features-list';
+@import '../sass/components/aboutas-list';
+@import '../sass/components/section-team';
+@import '../sass/components/team-list';
+@import '../sass/components/social-list';
+@import '../sass/components/section-clients';
+@import '../sass/components/clients-list';
+@import '../sass/components/footer';
+@import '../sass/components/footer-form';
+@import '../sass/components/backdrop';
+@import '../sass/components/portfolio';
+@import '../sass/components/menu-list';
+@import '../sass/components/portfolio-list-works';
+
+@import './components/modal-form'

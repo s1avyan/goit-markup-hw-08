@@ -1,0 +1,67 @@
+        <!-- is-hidden -->
+
+
+        <!-- mobile_menu -->
+        <!-- <div class="mobile_menu is-hidden">
+          <ul class="mobile_menu__menu">
+            <li class="mobile_menu__item">
+              <a class="link mobile_menu__link mobile_menu__link--current" href="./index.html">Студия</a>
+            </li>
+            <li class="mobile_menu__item">
+              <a class="link mobile_menu__link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="mobile_menu__item">
+              <a class="link mobile_menu__link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <ul class="mobile_menu__contact">
+            <li class="mobile_menu__mail">
+              <a class="link mobile_menu__link" href="emailto:info@devstudio.com">
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="mobile_menu__tel">
+              <a class="link mobile_menu__link" href="tel:+380961111111">
+                +38 096 111 11 11
+              </a>
+            </li>
+          </ul>
+          <ul class="mobile_social">
+            <li class="mobile_social__item">
+              <a class="mobile_social__link" href="">
+                Instagram
+              </a>
+            </li>
+            <li class="mobile_social__item">
+              <a class="mobile_social__link" href="">
+                Twitter
+              </a>
+            </li>
+            <li class="mobile_social__item">
+              <a class="mobile_social__link" href="">
+                Facebook
+              </a>
+            </li>
+            <li class="mobile_social__item">`
+              <a class="mobile_social__link" href="">
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+          <button class="mobile-button__close" type="button">
+            <svg class="mobile-button__icon" width="18.67px" height="18.67px">
+              <use href="./images/svg-sprite.svg#icon-Close-icon"></use>
+            </svg>
+          </button>
+        </div>
+        <button class="mobile-button__open" type="button">
+          <svg class="mobile-button__icon" width="18.67px" height="18.67px">
+            <use href="./images/svg-sprite.svg#icon-Close-icon"></use>
+          </svg>
+        </button> -->
+        <!-- mobile_menu -->
+
+
+
+
+

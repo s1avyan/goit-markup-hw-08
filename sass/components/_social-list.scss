@@ -1,0 +1,53 @@
+.social-list{
+    @include centeredFlex();
+   
+}
+.social-list__item{
+    margin-right: 10px;
+
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.social-list__link{
+    @include centeredFlex();
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #AFB1B8;
+    @include transition(background-color);
+
+    &:hover, &:focus{
+        background-color: var(--third-color);
+    }
+}
+
+.social-list__icon{
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    @include transition (fill);
+
+   
+
+    .social-list__link:hover &, 
+    .social-list__link:focus &{
+        fill: var(--fourth-color);
+
+    }
+}
+//  Модификаторы для иконок футера
+
+.social-list__link--bgc{
+    background-color: rgba(255, 255, 255, 0.1);
+
+    @include transition(background-color);
+    
+    &:hover{
+        background-color: var(--third-color);
+    }
+}
+
+.social-list__icon--fill{
+    fill: var(--fourth-color);
+}

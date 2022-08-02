@@ -1,0 +1,139 @@
+.footer{
+    flex: 1 1 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: hsl(235, 10%, 21%);
+}
+.footer-flex{
+    text-align: center;
+}
+.logo__accient--color{
+    color: var(--fourth-color);
+}
+.footer-contact{
+    margin-top: 20px;
+}
+
+.footer-contact__item{
+    margin-bottom: 8px;  
+}
+.footer-contact__link{
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-contact__link--white{
+    color: var(--fourth-color);
+}
+
+.footer-contact__item:last-child{
+    margin-bottom: 0;
+}
+
+.footer-socials-container{
+    text-align: center;
+    margin-top: 60px;
+
+}
+.footer-title{
+margin-top: 0;
+margin-bottom: 20px;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: var(--fourth-color);
+    
+}
+
+@media screen and (min-width: 768px) {
+    .footer{
+    
+    }
+    .footer-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer__adress{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .logo__accient--color{
+        
+    }
+    .footer-contact{
+    }
+
+    .footer-contact__item{
+    }
+    .footer-contact__link{
+
+    }
+    .footer-contact__link--white{
+        
+    }
+
+    .footer-contact__item:last-child{
+        margin-bottom: 0;
+    }
+
+    .footer-socials-container{
+        margin-top: 0;
+        // margin: 0px auto;
+        padding-top: 10px;
+        
+
+
+    }
+    .footer-title{
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .footer{
+
+    }
+    .logo__accient--color{
+
+    }
+    .footer-contact{
+        
+    }
+    .footer-flex{
+        
+        justify-content: left;
+
+    }
+    .footer__adress{
+        text-align: left;
+        
+    }
+    .footer-contact__item{
+        margin-bottom: 9px;  
+    }
+    .footer-contact__link{
+
+    }
+    .footer-contact__link--white{
+
+    }
+    
+    .footer-contact__item:last-child{
+
+    }
+    
+    .footer-socials-container{
+        margin-left: 70px;
+        padding-top: 12px;
+    
+    }
+    .footer-title{        
+        text-align: left;
+    }
+}
