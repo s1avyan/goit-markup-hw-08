@@ -38,14 +38,15 @@
 
 }
 .mobile_menu__mail{
-
-    color: var(--primiry-color);
     margin-bottom: 64px;
+    color: var(--primiry-color);
+    font-weight: 500;
     font-size: 24px;
     line-height: 1.17;
 }
 .mobile_menu__tel{
     margin-bottom: 32px;
+    font-weight: 500;
     font-size: 34px;
     line-height: 1.18;
     color:var(--third-color)

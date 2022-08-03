@@ -18,6 +18,7 @@
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
+    color: var(--primiry-color);
 }
 
 .form__field {
@@ -39,6 +40,10 @@
 &:hover,
 &:focus-within {
     border: 1px solid var(--third-color);
+    }
+&:hover,
+&:focus-within .form__label{
+    color: var(--third-color)
         }
 
     @include transition (border);
@@ -105,7 +110,7 @@
 }
 
 .checkbox__link {
-
+    text-decoration: underline;
     color: var(--third-color);
 }
 
@@ -159,6 +164,7 @@
     background-color: var(--third-color);
     border: 0px;
     color: #FFFFFF;
+    letter-spacing: 0.06em;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
