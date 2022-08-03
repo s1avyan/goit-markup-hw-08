@@ -1,4 +1,7 @@
 .mobile_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 48px 40px;
     position: fixed;
     z-index: 2;
@@ -31,21 +34,21 @@
     color:var(--third-color)
 }
 .mobile_menu__contact {
-    margin-top: 302px;
+    // margin-top: 302px;
 
 }
 .mobile_menu__mail{
+
+    color: var(--primiry-color);
+    margin-bottom: 64px;
+    font-size: 24px;
+    line-height: 1.17;
+}
+.mobile_menu__tel{
     margin-bottom: 32px;
     font-size: 34px;
     line-height: 1.18;
     color:var(--third-color)
-}
-.mobile_menu__tel{
-    margin-bottom: 64px;
-    font-size: 24px;
-    line-height: 1.17;
-    color: var(--primiry-color);
-
 }
 .mobile_menu__icon {
 }

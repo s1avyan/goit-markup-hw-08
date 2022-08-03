@@ -158,6 +158,16 @@ a {
   }
 }
 .mobile_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 48px 40px;
   position: fixed;
   z-index: 2;
@@ -186,22 +196,18 @@ a {
   color: var(--third-color);
 }
 
-.mobile_menu__contact {
-  margin-top: 302px;
+.mobile_menu__mail {
+  color: var(--primiry-color);
+  margin-bottom: 64px;
+  font-size: 24px;
+  line-height: 1.17;
 }
 
-.mobile_menu__mail {
+.mobile_menu__tel {
   margin-bottom: 32px;
   font-size: 34px;
   line-height: 1.18;
   color: var(--third-color);
-}
-
-.mobile_menu__tel {
-  margin-bottom: 64px;
-  font-size: 24px;
-  line-height: 1.17;
-  color: var(--primiry-color);
 }
 
 .mobile_social {
